@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Foldit&family=Oswald:wght@300&family=Sofia+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito+Sans:opsz,wght@6..12,300&family=Saira+Condensed&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.bg-nav-custom {
+    background: #ff4961 !important;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.nav-item {
+    margin-right: 15px;
+    color: #dad7cd;
+}
+
+.sectionHome {
+    height: 93vh;
+    background: #ff8798;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 3.5rem;
+    padding: 2rem;
+    margin-top:2rem;
+}
+
+.image_home {
+    height: 280px;
+    width: 280px;
+}
+
+.home_image_textc {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #b12b42;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.home_build_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button_build_home {
+    background: #e7334f;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 1.3px;
+    border: 1px solid #ec6d81;
+    padding: 8px 14px;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+
+.Button_build_home:hover {
+    color: black;
+    transform: scale(1.2);
+    background: #ec6d81;
+    border: #d90022;
+}
+
+.geading_home_resume {
+    letter-spacing: 1px;
+    margin-top: -50px;
+    color: #b12b42;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.image_company_verified {
+    height: 100px;
+}
+
+.section_verified {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.description_section {
+    background: #ff8798;
+    height: 100%;
+    padding: 3rem 5rem;
+}
+
+.icon_description {
+    font-size: 5rem
+}
+
+.head_desc_card {
+    color: #b12b42;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.para_card_desc {
+    font-size: 1.3rem;
+    color: #8a404c;
+}
+
+.bg_rewive {
+    background: white;
+    padding: 4rem;
+}
+
+.rewiveimage {
+    height: 50vh;
+}
+
+.bg_contact {
+    border-top: 3px solid #b12b42;
+    background: #ff8798;
+    height: 100%;
+    padding: 8rem;
+}
+
+.head_contact_temp {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.list_contact {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+    line-height: 20px;
+}
+
+
+.list_contact:hover {
+    list-style-type: square;
+    border-bottom: 1px white solid;
+    transform: scale(1.1);
+    color: #d3d3d3;
+}
+
+.copyright_txt {
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.templates_bg_home {
+    background: url("https://img.freepik.com/free-vector/abstract-fluid-neon-color-3d-effect-background-banner-design-multipurpose_1340-16764.jpg?w=1380&t=st=1697029139~exp=1697029739~hmac=b1a5ffbb7b9996719d46b0f2be51303d1ffe2d9353283ce349e42c42dfdee44f");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    padding: 4rem 18rem;
+}
+
+.card_temp_home {
+    background: white;
+    padding: 2rem;
+}
+
+.heading_temp_home_ {
+    color: #00f4d9;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 70px;
+    margin-top: 50px;
+}
+
+/********************selectTemplate*****************/
+
+
+.background_select_template {
+    background: #ff8798;
+    height: 100vh;
+}
+
+.container_template_heading {
+    background: #b12b42;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+.heading_selectTemp {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.card_template {
+    padding: 1.5rem;
+    background: #b12b42;
+    margin: 1rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card_template:hover {
+    background: #d5546a;
+    transform: scale(1.05);
+}
+
+.image_template {
+    height: 70vh;
+}
+
+.para_template {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.icon_back_template {
+    color: white;
+    font-size: 2rem;
+    margin-top: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.icon_back_template:hover {
+    transform: scale(1.1);
+}
+
+
+/*****************template1Cot******/
+.bakgroundtemp1 {
+    margin: 1rem 30rem;
+}
+
+.name_template_temp1 {
+    font-size: 2rem;
+    color: #68e2d7;
+    text-align: center;
+}
+
+.main_link_temp1 {
+    font-size: 1.2rem;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.head_template_template1 {
+    font-size: 1.5rem;
+    color: #68e2d7;
+}
+
+.line_template1 {
+    border: 1px dotted #A7A9AB;
+    width: 100%;
+    margin-top: -7px;
+}
+
+.summary_para_temp1 {
+    font-size: 1rem;
+    margin-top: -15px;
+    color: #6f6f6f;
+}
+
+/*************TEmplate22222222222*********/
+
+.top_color_temp2 {
+    height: 2vh;
+    background: #e32636;
+}
+
+.background_template2 {
+    height: 100vh;
+    padding: 0.1rem 20rem;
+}
+
+.heading_template2 {
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 3px solid #e32636;
+    width: 22rem;
+}
+
+.main_adddress_temp2 {
+    font-size: 2rem;
+    color: #565555;
+}
+
+.sub_heading_template2 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    border-bottom: 2px #e32636 solid;
+}
+
+.about_temp2 {
+    color: #3e32636;
+    font-size: 1.5rem;
+}
+
+.sub_heading_project_title_template2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #e32636;
+}
+
+.Contact_temp2 {
+    font-size: 1.8rem;
+}
+
+/************userINputTemplate11111(*************/
+
+.container_input_getting_template1 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group-input_res {
+    margin-bottom: 20px;
+}
+
+.label_input {
+    display: block;
+    font-weight: bold;
+}
+
+.resumebldinp {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
